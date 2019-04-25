@@ -8,7 +8,11 @@ class School
   end
 
   def add_student(name, grade)
-    roster[grade].push("#{name}")
+    if @roster.include?(grade) == false
+      @roster[grade] = [name]
+    else
+      @roster[grade].push(name)
+    end
   end
 
 end
