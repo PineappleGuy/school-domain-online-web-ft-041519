@@ -8,7 +8,8 @@ class School
   end
 
   def add_student(name, grade)
-    array = [name]
+    array = []
+    array << name
     roster[grade] = array
   end
 
