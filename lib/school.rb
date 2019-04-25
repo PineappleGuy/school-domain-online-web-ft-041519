@@ -8,10 +8,10 @@ class School
     @roster = {}
   end
 
-  def add_student(name, grade)
+  def add_student(grade, name)
     @name = name
     @grade = grade
-    roster << "#{name}, #{grade}"
+    roster << [:grade => name]
   end
 
 end
