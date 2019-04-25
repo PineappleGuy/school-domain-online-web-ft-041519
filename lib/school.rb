@@ -20,7 +20,7 @@ def grade(grade)
 end
 
   def sort
-    @roster.sort 
+    @roster.sort.to_h
 
   end
 
