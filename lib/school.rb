@@ -21,6 +21,7 @@ end
 
   def sort
     puts @roster
+  end
 
 
 
