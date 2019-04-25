@@ -11,7 +11,7 @@ class School
   def add_student(grade, name)
     @name = name
     @grade = grade
-    roster << [:grade => name]
+    roster << [:"#{grade}"=>"#{name}"]
   end
 
 end
