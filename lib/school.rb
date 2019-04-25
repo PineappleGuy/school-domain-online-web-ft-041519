@@ -10,7 +10,7 @@ roster = {}
   end
 
   def add_student(name, grade)
-    puts "hi"
+  
     roster << "#{grade}: => #{name}"
   end
 
