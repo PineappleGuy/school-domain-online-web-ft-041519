@@ -5,7 +5,7 @@ class School
   roster = {}
   def initialize(name, roster)
     @name = name
-    @roster = roster
+    roster = Hash.new {|grade: name| name = []}
 
   end
 
