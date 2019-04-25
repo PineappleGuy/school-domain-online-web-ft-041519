@@ -2,7 +2,7 @@
 class School
 
   roster = []
-  
+
   def initialize(name)
     @name = name
   end
@@ -20,6 +20,6 @@ class School
   def grade
     @grade
   end
-  
+
 
 end
