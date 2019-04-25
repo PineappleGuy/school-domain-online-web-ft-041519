@@ -15,7 +15,7 @@ class School
 
 end
 
-class students
+class Student
   attr_reader :name, :grade
 
   def initialize(name, grade)
