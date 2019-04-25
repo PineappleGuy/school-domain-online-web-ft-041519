@@ -2,10 +2,9 @@
 class School
   attr_reader :name, :grade
 
-  roster = {}
   def initialize(name, roster)
     @name = name
-    @roster = roster
+    @roster = {}
     #roster = {}
   end
 
