@@ -20,7 +20,7 @@ def grade(grade)
 end
 
   def sort
-    puts @roster
+    return @roster
   end
 
 
