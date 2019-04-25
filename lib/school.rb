@@ -1,11 +1,11 @@
 # code here!
 class School
+  attr_accessor :roster
   attr_reader :name, :grade
 
   def initialize(name, roster)
     @name = name
-    roster = Hash.new {|grade: student_name| student_name = []}
-    @roster = roster
+    @roster = {}
   end
 
   def add_student(name, grade)
