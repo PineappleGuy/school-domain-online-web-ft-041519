@@ -22,7 +22,7 @@ end
   def sort
     org_roster= @roster.sort
     return org_roster
-    
+
   end
 
 
